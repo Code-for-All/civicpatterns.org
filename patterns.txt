@@ -1,18 +1,18 @@
-Give people something to fight about
+// Give people something to fight about
 
-Make up data
+// Make up data
 
-What to say "no" to
+// What to say "no" to
 
-Don't put users at risk
+// Don't put users at risk
 
-Don't require users to be converted to you cause 
+// Don't require users to be converted to you cause 
 
 Be ready to press the kill switch
 
 Be ready to make your org redundant 
 
-People want faster horses
+// People want faster horses
 
 Don't do community astroturfing (You can't build a community)
 
