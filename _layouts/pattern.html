@@ -2,6 +2,20 @@
 layout: default
 ---
 
-Pattern: XXX
+<h3>Pattern: {{page.name}}</h3>
 
-{{content}}
+<p>
+    <strong>What is it?</strong> {{page.tagline}}
+</p>
+
+{% if page.stub %}
+    <div class="alert alert-warning">
+        <strong>This pattern is a stub.</strong> Help to grow CivicPatterns.org by 
+        explaining the pattern with a description.
+        <a class="alert-link" href="https://github.com/civic-commons/civicpatterns.org/edit/master/patterns/{{page.name}}.md#">Edit now.</a>
+    </div>
+{% else %}
+    {{content}}
+{% endif %}
+
+
