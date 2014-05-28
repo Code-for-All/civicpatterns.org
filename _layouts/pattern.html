@@ -18,4 +18,16 @@ layout: default
     {{content}}
 {% endif %}
 
+{% if page.related | size > 0 %}
+    <h3>Related Patterns</h3>
+    <ul>
+        {% for related in page.related %}
+            {% for p in site.pages %}{% if p.name == related %}
+                <li>
+                    <a href="/patterns/{{p.name}}.html"><strong>{{p.name}}</strong></a> {{p.tagline}}
+                </li>
+            {% endif %}{% endfor %}
+        {% endfor %}
+    </ul>
+{% endif %}
 
