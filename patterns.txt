@@ -1,19 +1,3 @@
-// Give people something to fight about
-
-// Make up data
-
-// What to say "no" to
-
-// Don't put users at risk
-
-// Don't require users to be converted to you cause 
-
-Be ready to press the kill switch
-
-// Be ready to make your org redundant 
-
-// People want faster horses
-
 Don't do community astroturfing (You can't build a community)
 
 Don't just publish a score card, encourage people to play 
@@ -26,17 +10,13 @@ Design isn't just appearance
 
 Define success and failure at the start 
 
-Have a progress bar 
-
 Open up the admin function 
 
 Be transparent yourself 
 
 Live what you preach 
 
-Narrate your work
-
-Scratch your own itch 
+Narrate your work 
 
 Eat your own dog food (but don't only eat dog food)
 
@@ -54,11 +34,7 @@ Don't slap on a freemium
 
 Think Backwards (theory of change)
 
-Ask for forgiveness, not permission 
-
 Pretend reality is what you want it to be 
-
-Harness self-interest 
 
 Use duct tape and off-the-shelf tools
 
@@ -117,8 +93,6 @@ Exxon Valdez (data spills kill ecosystems)
 Don't solve all the problems
 
 Do one thing and do it well 
-
-Make a service much simpler
 
 Make citizen-government communications public 
 
