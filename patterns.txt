@@ -10,7 +10,7 @@
 
 Be ready to press the kill switch
 
-Be ready to make your org redundant 
+// Be ready to make your org redundant 
 
 // People want faster horses
 
