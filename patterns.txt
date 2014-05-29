@@ -28,16 +28,7 @@ delivery  Don't solve all the problems
 delivery  Do one thing and do it well
 delivery  Build the right thing
 delivery  Live what you preach
-delivery  No white papers
-engagement  Push don't pull
-engagement  Don't just publish a score card, encourage people to play
-engagement  Next step after an action (Don't leave me hanging)
-engagement  Something has to happen (incidents) (what is the follow-up?)
-engagement  Pretend reality is what you want it to be
-engagement  Don't educate, remove the need to educate
-engagement  Personalize It (Drill down to individuals)
-engagement  If a user gives you something, give something back
-engagement  Give Someone A Headache
+
 engagement  Remove a headache from Someone
 engagement  What does it do? (every page)
 engagement  Your first users aren't your normal users
