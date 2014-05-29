@@ -22,13 +22,13 @@ delivery  Do one thing and do it well
 delivery  Build the right thing
 
 delivery  Live what you preach
-delivery  Don't slap on a freemium
 
+-- delivery  Don't slap on a freemium
 -- engagement Your first users aren't your normal users
 -- engagement A big button (call to action)
 -- government Government can be your user
-government Don't pretend you're the government
-government Go where government will not
-government Translate government lingo
-government Government cleanrooms (delay interacting with government)
-government Make citizen-government communications public
+-- government Don't pretend you're the government
+-- government Go where government will not
+-- government Translate government lingo
+-- government Government cleanrooms (delay interacting with government)
+-- government Make citizen-government communications public
