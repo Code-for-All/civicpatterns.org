@@ -7,7 +7,7 @@ tagline: A design pattern language for technology that addresses social politica
 <ul>
     {% for page in site.pages %}{% if page.layout == 'pattern' %}
         <li>
-            <a href="/patterns/{{page.name}}"><strong>{{page.name}}</strong></a> {{page.tagline}}
+            <a href="{{page.url}}"><strong>{{page.title}}</strong></a> {{page.tagline}}
         </li>
     {% endif %}{% endfor %}
 </ul>
