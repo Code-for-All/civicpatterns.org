@@ -8,15 +8,7 @@ community Users will self-select
 community Pear Review
 community Don't build a social network
 delivery  Define success and failure at the start
-delivery  Eat your own dog food (but don't only eat dog food)
-delivery  Launch without a home page
-delivery  Use duct tape and off-the-shelf tools
-delivery  Don't wait, scrape
-delivery  Don't rely on policy change
-delivery  Think Backwards (theory of change)
-delivery  Worry about abuse when it happens
 delivery  Design isn't just appearance
-delivery  Open up the admin function
 delivery  Be transparent yourself
 delivery  Narrate your work
 delivery  Don't slap on a freemium
