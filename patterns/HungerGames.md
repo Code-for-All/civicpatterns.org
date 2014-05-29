@@ -1,6 +1,6 @@
 ---
 layout: pattern
-name: Palestine
+name: HungerGames
 tagline: To foster activity on your new site, give users something to fight about. 
 tags:
     - community
