@@ -8,15 +8,7 @@ community Users will self-select
 community Pear Review
 community Don't build a social network
 delivery  Define success and failure at the start
-delivery  Eat your own dog food (but don't only eat dog food)
-delivery  Launch without a home page
-delivery  Use duct tape and off-the-shelf tools
-delivery  Don't wait, scrape
-delivery  Don't rely on policy change
-delivery  Think Backwards (theory of change)
-delivery  Worry about abuse when it happens
 delivery  Design isn't just appearance
-delivery  Open up the admin function
 delivery  Be transparent yourself
 delivery  Narrate your work
 delivery  Don't slap on a freemium
@@ -28,18 +20,7 @@ delivery  Don't solve all the problems
 delivery  Do one thing and do it well
 delivery  Build the right thing
 delivery  Live what you preach
-delivery  No white papers
-engagement  Push don't pull
-engagement  Don't just publish a score card, encourage people to play
-engagement  Next step after an action (Don't leave me hanging)
-engagement  Something has to happen (incidents) (what is the follow-up?)
-engagement  Pretend reality is what you want it to be
-engagement  Don't educate, remove the need to educate
-engagement  Personalize It (Drill down to individuals)
-engagement  If a user gives you something, give something back
-engagement  Give Someone A Headache
-engagement  Remove a headache from Someone
-engagement  What does it do? (every page)
+
 engagement  Your first users aren't your normal users
 engagement  A big button (call to action)
 engagement  Proxy the legalese
