@@ -1,6 +1,8 @@
 safe: true
 markdown: kramdown
 
+permalink: pretty
+
 #collections:
 #    patterns:
 #        output: true
