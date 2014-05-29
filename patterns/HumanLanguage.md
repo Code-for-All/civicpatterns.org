@@ -5,6 +5,8 @@ tagline: Translate bureaucratic slang into everyday language to make it easy to 
 tags:
     - government
 stub: true
+related:
+    - DontPretendYoureTheGovernment
 ---
 
 
