@@ -7,3 +7,5 @@ tags:
     - users
 stub: true
 ---
+
+Design your project to collect only necessary data points; get out of the 'the more data the better' attitude, for the safety of those you are working with. 
