@@ -1,101 +1,51 @@
-Don't do community astroturfing (You can't build a community)
-
-Don't just publish a score card, encourage people to play 
-
-Government can be your user 
-
-Let users help each other 
-
-Design isn't just appearance
-
-Define success and failure at the start 
-
-Open up the admin function 
-
-Be transparent yourself 
-
-Live what you preach 
-
-Narrate your work 
-
-Eat your own dog food (but don't only eat dog food)
-
-Next step after an action (Don't leave me hanging)
-
-Give Someone A Headache 
-
-Remove a headache from Someone 
-
-Something has to happen (incidents) (what is the follow-up?)
-
-Launch without a home page 
-
-Don't slap on a freemium 
-
-Think Backwards (theory of change)
-
-Pretend reality is what you want it to be 
-
-Use duct tape and off-the-shelf tools
-
-Don't educate, remove the need to educate 
-
-Don't wait, scrape
-
-Don't rely on policy change 
-
-No white papers
-
-Personalize It (Drill down to individuals)
-
-Worry about abuse when it happens
-
-Don't pretend you're the government 
-
-Don't build a destination
-
-Go where government will not 
-
-Measure the right things 
-
-What does it do? (every page)
-
-Your first users aren't your normal users
-
-Google It First, do some research 
-
-If you build it they won't come 
-
-Push don't pull 
-
-Don't build a social network 
-
-Start with the citizen, not the technology 
-
-A big button (call to action)
-
-Single user mode (1st user needs to work, don't require community)
-
-Users will self-select
-
-Pear Review 
-
-Launch is the start of your project
-
-Translate government lingo 
-
-Proxy the legalese 
-
-Government cleanrooms (delay interacting with government)
-
-Exxon Valdez (data spills kill ecosystems)
-
-Don't solve all the problems
-
-Do one thing and do it well 
-
-Make citizen-government communications public 
-
-Build the right thing
-
-If a user gives you something, give something back 
+community Don't do community astroturfing (You can't build a community)
+community Let users help each other
+community Don't build a destination
+community If you build it they won't come
+community Start with the citizen, not the technology
+community Single user mode (1st user needs to work, don't require community)
+community Users will self-select
+community Pear Review
+community Don't build a social network
+delivery  Define success and failure at the start
+delivery  Eat your own dog food (but don't only eat dog food)
+delivery  Launch without a home page
+delivery  Use duct tape and off-the-shelf tools
+delivery  Don't wait, scrape
+delivery  Don't rely on policy change
+delivery  Think Backwards (theory of change)
+delivery  Worry about abuse when it happens
+delivery  Design isn't just appearance
+delivery  Open up the admin function
+delivery  Be transparent yourself
+delivery  Narrate your work
+delivery  Don't slap on a freemium
+delivery  Measure the right things
+delivery  Google It First, do some research
+delivery  Launch is the start of your project
+delivery  Exxon Valdez (data spills kill ecosystems)
+delivery  Don't solve all the problems
+delivery  Do one thing and do it well
+delivery  Build the right thing
+delivery  Live what you preach
+delivery  No white papers
+engagement  Push don't pull
+engagement  Don't just publish a score card, encourage people to play
+engagement  Next step after an action (Don't leave me hanging)
+engagement  Something has to happen (incidents) (what is the follow-up?)
+engagement  Pretend reality is what you want it to be
+engagement  Don't educate, remove the need to educate
+engagement  Personalize It (Drill down to individuals)
+engagement  If a user gives you something, give something back
+engagement  Give Someone A Headache
+engagement  Remove a headache from Someone
+engagement  What does it do? (every page)
+engagement  Your first users aren't your normal users
+engagement  A big button (call to action)
+engagement  Proxy the legalese
+government Government can be your user
+government Don't pretend you're the government
+government Go where government will not
+government Translate government lingo
+government Government cleanrooms (delay interacting with government)
+government Make citizen-government communications public
