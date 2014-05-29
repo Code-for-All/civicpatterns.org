@@ -9,10 +9,10 @@ layout: default
 </p>
 
 {% if page.stub %}
-    <div class="alert alert-warning">
+    <div class="stub">
         <strong>This pattern is a stub.</strong> Help to grow CivicPatterns.org by 
         explaining the pattern with a description.
-        <a class="alert-link" href="https://github.com/civic-commons/civicpatterns.org/edit/gh-pages/patterns/{{page.name}}.md#">Edit now.</a>
+        <a class="alert-link" href="https://github.com/civic-commons/civicpatterns.org/edit/gh-pages/{{page.path}}#">Edit now.</a>
     </div>
 {% else %}
     {{content}}
@@ -22,9 +22,9 @@ layout: default
     <h3>Related Patterns</h3>
     <ul>
         {% for related in page.related %}
-            {% for p in site.pages %}{% if p.name == related %}
+            {% for p in site.pages %}{% if p.title == related %}
                 <li>
-                    <a href="/patterns/{{p.name}}.html"><strong>{{p.name}}</strong></a> {{p.tagline}}
+                    <a href="{{p.url}}"><strong>{{p.title}}</strong></a> {{p.tagline}}
                 </li>
             {% endif %}{% endfor %}
         {% endfor %}
