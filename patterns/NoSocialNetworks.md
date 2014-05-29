@@ -1,7 +1,7 @@
 ---
 layout: pattern
 name: NoSocialNetworks
-tagline:
+tagline: Don't build a social network, it won't work.
 tags:
     - funders
 stub: true
