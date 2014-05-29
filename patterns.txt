@@ -10,6 +10,8 @@ community Don't build a social network
 delivery  Define success and failure at the start
 delivery  Design isn't just appearance
 delivery  Be transparent yourself
+
+
 delivery  Narrate your work
 delivery  Measure the right things
 delivery  Google It First, do some research
@@ -18,10 +20,8 @@ delivery  Exxon Valdez (data spills kill ecosystems)
 delivery  Don't solve all the problems
 delivery  Do one thing and do it well
 delivery  Build the right thing
+
 delivery  Live what you preach
-
-
-
 delivery  Don't slap on a freemium
 
 engagement Your first users aren't your normal users

@@ -1,6 +1,6 @@
 ---
 layout: pattern
-name: Use Duct Tape
+name: UseDuctTape
 tagline: Build as much of your site as possible with off-the-shelf tools.
 tags:
     - delivery
