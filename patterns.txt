@@ -11,7 +11,6 @@ delivery  Define success and failure at the start
 delivery  Design isn't just appearance
 delivery  Be transparent yourself
 delivery  Narrate your work
-delivery  Don't slap on a freemium
 delivery  Measure the right things
 delivery  Google It First, do some research
 delivery  Launch is the start of your project
@@ -21,9 +20,13 @@ delivery  Do one thing and do it well
 delivery  Build the right thing
 delivery  Live what you preach
 
-engagement  Your first users aren't your normal users
-engagement  A big button (call to action)
-engagement  Proxy the legalese
+
+
+delivery  Don't slap on a freemium
+
+engagement Your first users aren't your normal users
+engagement A big button (call to action)
+engagement Proxy the legalese
 government Government can be your user
 government Don't pretend you're the government
 government Go where government will not
