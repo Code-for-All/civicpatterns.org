@@ -1,6 +1,6 @@
 ---
 layout: pattern
-name: Eat Your Own Dog Food
+name: EatYourOwnDogFood
 tagline: "(but don't only eat dog food)"
 tags:
     - delivery
