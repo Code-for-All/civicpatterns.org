@@ -2,8 +2,6 @@
 layout: pattern
 title: Make Up Data
 tagline: When official data isn't available, you can create pressure with fake data. Use with care.
-tags:
-    - data
-    - government
+category: Government
 stub: true
 ---

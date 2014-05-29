@@ -2,10 +2,8 @@
 layout: pattern
 title: No Score Card
 tagline: Don't just make government score cards, make places that allow people to act on that information.
-tags:
-    - technology
-    - engagement
+category: Engagement
 related:
-    - DataSpillsKillTheEnvironment
+    - Data Spills Kill The Environment
 stub: true
 ---

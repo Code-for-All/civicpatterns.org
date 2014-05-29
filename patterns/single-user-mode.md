@@ -2,9 +2,8 @@
 layout: pattern
 title: Single User Mode
 tagline: A site should work for just one user, as well as a community.
-tags:
-    - funders
+category: Community
 stub: true
 related:
-    - NoSocialNetworks
+    - No Social Networks
 ---

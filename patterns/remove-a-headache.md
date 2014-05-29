@@ -2,9 +2,8 @@
 layout: pattern
 title: Remove A Headache
 tagline: Make a complex, badly-designed and cumbersome everyday process easier, and the result may be a completely different interaction.
-tags:
-    - engagement
+category: Engagement
 stub: true
 related:
-    - GiveSomeoneAHeadache
+    - Give Someone A Headache
 ---

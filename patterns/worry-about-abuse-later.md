@@ -5,5 +5,5 @@ tagline: "Don't build systems to cope with abuse until you actively experience i
 category: Delivery
 stub: true
 related:
-    - HungerGames
+    - Hunger Games
 ---

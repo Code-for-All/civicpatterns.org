@@ -2,9 +2,8 @@
 layout: pattern
 title: Eliminate Your Job
 tagline: Automation might replace people in your organization. Don't work around that, have them do something better instead.
-tags:
-    - ngo
+category: Delivery
 related:
-    - FasterHorses
+    - Faster Horses
 stub: true
 ---

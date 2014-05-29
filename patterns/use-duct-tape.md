@@ -2,7 +2,6 @@
 layout: pattern
 title: Use Duct Tape
 tagline: Build as much of your site as possible with off-the-shelf tools.
-tags:
-    - delivery
+category: Delivery
 stub: true
 ---

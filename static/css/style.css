@@ -788,7 +788,11 @@ pre > code { display: block; }
     height: 100%;
 }
 
+.stub {
+    background-color: #f0f5f6;
+    padding: 0.3em;
 
+}
 
 
 
