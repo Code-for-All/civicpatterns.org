@@ -4,10 +4,6 @@ layout: default
 tagline: A design pattern language for technology that addresses social political and governance-related problems.
 ---
 
-<ul>
-    {% for page in site.pages %}{% if page.layout == 'pattern' %}
-        <li>
-            <a href="{{page.url}}"><strong>{{page.title}}</strong></a> {{page.tagline}}
-        </li>
-    {% endif %}{% endfor %}
-</ul>
+CivicPatterns is a catalogue of design patterns for civic technology projects. Anyone who builds public tools needs to make sure that their approach is going to have real effects, and that they avoid common pitfalls. This site tries to establish a pattern language to support a discussion about what works, what fails and why.
+
+
