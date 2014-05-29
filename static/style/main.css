@@ -24,3 +24,14 @@ code {
   background-color: #eee;
   color: #333;
 }
+
+h1 {
+  display:inline-block;
+}
+
+#twitterButton {
+  display: inline-block;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30px;
+}
