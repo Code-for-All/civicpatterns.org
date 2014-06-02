@@ -1,7 +1,7 @@
 ---
 layout: pattern
-title: Dont Educate
-tagline: Don't educate your visitors about a complex subject, remove the need for them to be educated in order to engage with it.
+title: Don't Educate
+tagline: People rarely want to be educated about how a complex system works. Instead, remove the need for them to become educated in order to achieve their goal.
 category: Engagement
 stub: true
 ---
