@@ -7,7 +7,7 @@ layout: default
 <ul>
     {% for p in site.pages %}{% if p.layout == 'pattern' %}{% if p.category == page.title %}
         <li>
-            <a href="{{page.url}}"><strong>{{p.title}}</strong></a> {{p.tagline}}
+            <a href="{{p.url}}"><strong>{{p.title}}</strong></a> {{p.tagline}}
         </li>
     {% endif %}{% endif %}{% endfor %}
 </ul>
