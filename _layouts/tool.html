@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>Pattern: {{page.title}}</h2>
+<h2>Tool: {{page.title}}</h2>
 
 <p>
     {{page.tagline}}
@@ -10,8 +10,8 @@ layout: default
 
 {% if page.stub %}
     <div class="stub">
-        <strong>This pattern is a stub.</strong> Help to grow CivicPatterns.org by
-        explaining the pattern with a description.
+        <strong>This tool description is a stub.</strong> Help to grow CivicPatterns.org by
+        explaining the tool with a description.
         <a class="alert-link" href="https://github.com/civic-commons/civicpatterns.org/edit/gh-pages/{{page.path}}#">Edit now.</a>
     </div>
 {% else %}
@@ -19,7 +19,7 @@ layout: default
 {% endif %}
 
 {% if page.related | size > 0 %}
-    <h3>Related Patterns</h3>
+    <h3>Related items</h3>
     <ul>
         {% for related in page.related %}
             {% for p in site.pages %}{% if p.title == related %}
