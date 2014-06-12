@@ -19,7 +19,7 @@ Items to flesh out. To grab an item, put your name next to it and then go and ed
 - [ ] patterns/eliminate-your-job.md
 - [ ] patterns/fake-freemium.md
 - [ ] patterns/faster-horses.md
-- [ ] patterns/fuck-it-ship-it.md - @longhotsummer
+- [X] patterns/fuck-it-ship-it.md - @longhotsummer
 - [ ] patterns/give-someone-a-headache.md
 - [ ] patterns/give-something-back.md
 - [ ] patterns/harness-self-interest.md
