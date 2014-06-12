@@ -42,7 +42,7 @@ Items to flesh out. To grab an item, put your name next to it and then go and ed
 - [ ] patterns/preach-the-converted.md
 - [ ] patterns/progress-bar.md
 - [ ] patterns/public-inbox.md
-- [ ] patterns/push-dont-pull.md
+- [X] patterns/push-dont-pull.md - @longhotsummer
 - [ ] patterns/remove-a-headache.md
 - [ ] patterns/say-no.md
 - [ ] patterns/scratch-your-own-itch.md
