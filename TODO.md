@@ -27,8 +27,8 @@ Items to flesh out. To grab an item, put your name next to it and then go and ed
 - [ ] patterns/hunger-games.md
 - [ ] patterns/keep-the-world-informed.md
 - [ ] patterns/kill-switch.md
-- [ ] patterns/launch-without-a-home-page.md
-- [ ] patterns/launching-is-just-the-start.md - @longhotsummer
+- [X] patterns/launch-without-a-home-page.md - @longhotsummer
+- [X] patterns/launching-is-just-the-start.md - @longhotsummer
 - [ ] patterns/make-government-your-user.md
 - [ ] patterns/make-up-data.md
 - [ ] patterns/make-your-own-reality.md

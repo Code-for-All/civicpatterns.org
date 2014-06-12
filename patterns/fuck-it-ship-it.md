@@ -5,6 +5,8 @@ tagline: Publish your prototype as soon as possible, instead of trying to build 
 category: Delivery
 related:
   - Don't Boil The Ocean
+  - Launch Without A Home Page
+  - Launching Is Just The Start
 ---
 
 The sooner you put your product in front of users, the sooner you'll get
