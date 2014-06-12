@@ -49,7 +49,7 @@ Items to flesh out. To grab an item, put your name next to it and then go and ed
 - [ ] patterns/single-user-mode.md
 - [ ] patterns/something-must-happen.md
 - [ ] patterns/start-with-the-citizen.md
-- [ ] patterns/think-backwards.md
+- [X] patterns/think-backwards.md - @longhotsummer
 - [ ] patterns/use-duct-tape.md
 - [ ] patterns/users-help-each-other.md
 - [ ] patterns/what-does-it-do.md
