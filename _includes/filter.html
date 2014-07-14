@@ -1,0 +1,9 @@
+<div class="filter-options">
+{% for cat in page.categories %}
+  {% capture url %}/categories/{{ cat | replace: ' ', '_' | downcase }}{% endcapture %}
+  {% capture indexurl %}{{ url }}/index.html{% endcapture %}
+
+
+<button class="btn btn filter-btn" data-group="{{cat}}">{{cat}}</button>
+{% endfor %}
+</div>

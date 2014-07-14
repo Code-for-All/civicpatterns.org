@@ -350,6 +350,10 @@ h6 {
 }
 
 
+p.tagline {
+    font-size: 20px;
+}
+
 
 /*
     Lists
@@ -788,7 +792,11 @@ pre > code { display: block; }
     height: 100%;
 }
 
+.stub {
+    background-color: #f0f5f6;
+    padding: 0.3em;
 
+}
 
 
 

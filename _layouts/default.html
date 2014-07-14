@@ -4,84 +4,19 @@ categories:
 - Delivery
 - Government
 - Engagement
+- Tools
 ---
 
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>CivicPatterns &raquo; {{ page.title }}{{page.name}}</title>
-    <link type="image/x-icon" rel="shortcut icon" href="/static/images/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
-  </head>
-  <body>
+{% include header.html %}
 
-    <section class="container">
 
-      <header class="header">
-        <h1><a class="" href="/"><span class="entypo">&oacute;</span><span class="title ir">CivicPatterns</span></a></h1>
-      </header>
+      <article class="main-content">
 
-      <section class="content">
+       {{ content }}
 
-        <article class="content-block">{{ content }}</article>
+      </article>
 
-        <footer class="footer content-block">
-          <p>Don't see a pattern you want? Add it yourself by reading the <a href="/contributing">Contributor's Guide</a>. The layout of this page is based on the
-          <a href="http://coffeescriptcookbook.com/">CoffeeScript Cookbook</a>.</p>
-          <a href="/license"><img src="/static/images/cc_by_badge.png" /></a>
-        </footer>
 
-      </section>
 
-    </section>
-
-    <aside id="sidebar">
-
-      <section class="sidebar-block block-short">
-        <nav class="navigation pages-nav home-nav">
-          <h6><a class="nav-link" href="/"><span class="entypo">&oacute;</span>CivicPatterns</a></h6>
-          <small class="thin dimmed">(last updated {{ site.time | date: "%d %B, %Y" }})</small>
-        </nav>
-      </section>
-
-      <section class="sidebar-block">
-        <nav class="navigation pages-nav">
-          <ul class="plain-list inline-list">
-            <li><a class="nav-link" href="/contributing"><span class="entypo">6</span>Contribute</a></li>
-            <li><a class="nav-link" href="/authors"><span class="entypo">,</span>Authors</a></li>
-            <li><a class="nav-link" href="/license"><span class="entypo">&copy;</span>License</a></li>
-          </ul>
-        </nav>
-      </section>
-
-      <section class="sidebar-block">
-        <h5 class="sidebar-title">Categories</h5>
-        <ol class="navigation chapters-list">
-          {% for category in page.categories %}
-            {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
-            {% capture indexurl %}{{ url }}/index.html{% endcapture %}
-            <li class="chapter">
-              <div class="sidebar-subtitle{% if page.url == indexurl %} page-active{% endif %}"><strong><a class="chapter-title" href="{{ url }}">{{ category }}</a></strong></div>
-              <ul class="pseudo-list recipes-list">
-                {% for site_page in site.pages %}
-                  {% if site_page.category == category %}
-                    {% unless site_page.url == indexurl %}
-                      <li class="list-item recipe{% if page.url == site_page.url %} page-active{% endif %}"><a class="recipe-title" href="{{ site_page.url | replace: '.html', '' }}">{{ site_page.name }}</a></li>
-                    {% endunless %}
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ol>
-      </section>
-
-    </aside>
-
-    <script type="text/javascript" src="/static/js/scripts.js"></script>
-
- </body>
-</html>
-
+    
+{% include footer.html %}

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div  class="jumbotron dotted">
+
+	<div class="container">
+		<div class="row patt-row">
+			<div class="col-md-10 ">
+
+			<h1>{{page.title}}</h1>
+
+
+			<ul>
+			    {% for p in site.pages %}{% if p.layout == 'pattern' or p.layout == 'tool' %}{% if p.category == page.title %}
+			        <li>
+			            <a class="rel-patt" href="{{p.url}}"><strong>{{p.title}}</strong></a> 
+			            {{p.tagline}}
+			        </li>
+			    {% endif %}{% endif %}{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+</div>

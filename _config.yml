@@ -1,8 +1,11 @@
 safe: true
 markdown: kramdown
-
 permalink: pretty
+
 
 #collections:
 #    patterns:
 #        output: true
+sitetagline: 'Let’s talk about Civic Tech projects; what works, what fails and why.' 
+
+

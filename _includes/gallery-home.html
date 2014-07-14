@@ -1,0 +1,19 @@
+{% include filter.html %}
+
+<div id="grid" class="row patt-grid-container">
+  {% for category in page.categories %}
+  {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
+  {% capture indexurl %}{{ url }}/index.html{% endcapture %}
+
+  {% for site_page in site.pages %}
+        {% if site_page.category == category %}
+          {% unless site_page.url == indexurl %}
+          <!--draw each pattern in a panel-->
+         {% include panel-pattern-gallery.html %}
+
+        {% endunless %}
+        {% endif %}
+      {% endfor %}
+{% endfor %}
+  
+</div> 
