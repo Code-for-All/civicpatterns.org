@@ -9,53 +9,41 @@ categories:
 
 {% include header.html %}
 
+  {% if page.homepage %}
+    <section class="dot">
+      <div class='jumbotron dotted city'>
+        <div class='container'>
+          <div class="col-md-8 col-md-offset-2">
+            <ul class="bxslider">
+              
+               {% for p in site.pages %}
+                    {% if p.featured %}
+                     
+                  <li><h2> {{ p.title }} </h2></li>
+                  {% endif %}
+                {% endfor %}
 
-{% if page.homepage %}
-<section class="dot">
-
-	<div class='jumbotron dotted city'>
-		<div class='container'>
-			<div class="col-md-8 col-md-offset-2">
-				<ul class="bxslider">
-					
-					 {% for p in site.pages %}
-				        {% if p.featured %}
-				         
-			  			<li><h2> {{ p.title }} </h2></li>
-			  			{% endif %}
-				  	{% endfor %}
-
-				</ul>
-			</div>
-		
-		</div>
-	</div>
-	<div class="jumbotron blue">
-
-		<div class="container">
-			<div class="col-md-8 col-md-offset-2">
-				<h3> {{ site.sitetagline }}</h3>
-				<!-- <h3>{{ page.tagline }}</h3> -->
-				{{content}}
-			</div>
-		</div>
-	</div>
-		
-</section>
-
-
-{% endif %}
-
-      <section class="content container">
-      	
-        <div class="content-block">
-
-        {% include gallery-home.html %}
-
-
+            </ul>
+          </div>
         </div>
-
+      </div>
+      <div class="jumbotron blue">
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2">
+            <h3> {{ site.sitetagline }}</h3>
+            <!-- <h3>{{ page.tagline }}</h3> -->
+            {{content}}
+          </div>
+        </div>
+      </div>
     </section>
+  {% endif %}
+
+  <section class="content container">
+    <div class="content-block">
+    {% include gallery-home.html %}
+    </div>
+</section>
 
     
 {% include footer.html %}
