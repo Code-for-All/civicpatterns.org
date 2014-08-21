@@ -11,17 +11,22 @@ categories:
 
 
 {% if page.homepage %}
-<section class="dot">
+<section class="dot home">
 
 	<div class='jumbotron dotted city'>
 		<div class='container'>
 			<div class="col-md-8 col-md-offset-2">
+				
 				<ul class="bxslider">
 					
 					 {% for p in site.pages %}
 				        {% if p.featured %}
 				         
-			  			<li><h2> {{ p.title }} </h2></li>
+			  			<li>
+			  				<h2> {{ p.title }} </h2>
+			  				<p> {{ p.tagline }} </p>
+			  			</li>
+
 			  			{% endif %}
 				  	{% endfor %}
 
@@ -45,17 +50,47 @@ categories:
 
 
 {% endif %}
+    
+<article class="main-content home">
+	<div class="container">
+	<h1 class="sign"> Pattern Catalog </h1>
+</div>
+    	<div class="jumbotron dotted">
+    		<div class="container">
+    			<div class="row">
+    				{% for category in page.categories %}
+		            {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
+		            {% capture indexurl %}{{ url }}/index.html{% endcapture %}
+		            
+		            <div class=" col-md-3 chapter">
+		            	<h2 class="sidebar-subtitle"><strong><a class="chapter-title" href="{{ url }}">{{ category }}</a></strong></h2>
+		            	<div class="list">
+				              <ul class="pseudo-list recipes-list">
+				                {% for site_page in site.pages %}
+				                  {% if site_page.category == category %}
+				                    {% unless site_page.url == indexurl %}
+				                      <li class="list-item recipe{% if page.url == site_page.url %} page-active{% endif %}"><a class="recipe-title" href="{{ site_page.url | replace: '.html', '' }}">{{ site_page.title }}</a></li>
+				                    {% endunless %}
+				                  {% endif %}
+				                {% endfor %}
 
-      <section class="content container">
-      	
-        <div class="content-block">
+				              </ul>
+			        	</div>
+			        </div> 
+			
 
-        {% include gallery-home.html %}
+		          	{% endfor %}	
 
+		       	
+		       </div>
 
-        </div>
+		    </div>
+		</div>    
 
-    </section>
+</article>
 
     
 {% include footer.html %}
+
+  
+

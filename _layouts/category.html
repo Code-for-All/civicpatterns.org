@@ -11,7 +11,7 @@ layout: default
 
 
 			<ul>
-			    {% for p in site.pages %}{% if p.layout == 'pattern' or p.layout == 'tool' %}{% if p.category == page.title %}
+			    {% for p in site.pages %}{% if p.layout == 'catalog' or p.layout == 'tool' %}{% if p.category == page.title %}
 			        <li>
 			            <a class="rel-patt" href="{{p.url}}"><strong>{{p.title}}</strong></a> 
 			            {{p.tagline}}

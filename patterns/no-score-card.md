@@ -1,5 +1,5 @@
 ---
-layout: pattern
+layout: catalog
 title: No Score Card
 tagline: Don't just make government score cards, make places that allow people to act on that information.
 category: Engagement

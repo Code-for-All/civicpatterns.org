@@ -1,5 +1,5 @@
 ---
-layout: pattern
+layout: catalog
 title: No Risk
 tagline: Don't create opportunities for users to publish information which an adversary might use to harm them.
 category: Community

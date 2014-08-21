@@ -1,5 +1,5 @@
 ---
-layout: pattern
+layout: catalog
 title: Think Backwards
 tagline: Start by describing what you want to achieve for your users, and then work out the steps to get there.
 category: Delivery

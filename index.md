@@ -5,7 +5,7 @@ tagline: A design pattern language for technology that addresses social politica
 homepage: yes
 ---
 
-CivicPatterns is a catalogue of design patterns and tools for civic technology projects. Anyone who builds public tools needs to make sure that their approach is going to have real effects, and that they avoid common pitfalls. This site tries to establish a pattern language to support a discussion about what works, what fails and why.
+Making civic technology is not about technology, it's about finding new patterns of interacting with government and with each other. CivicPatterns collects lessons that we've learned about what we can do to enagage citizens using the web, to help governments and other institutions to open up, and to provide great services that people can use every day.
 
 ### Also on CivicPatterns
 

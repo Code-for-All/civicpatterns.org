@@ -1,5 +1,5 @@
 ---
-layout: pattern
+layout: catalog
 title: Clean Room
 tagline: "If your project operates within any bureaucratic system, ensure that the person responsible for its design knows as little as possible about how the existing system works."
 category: Government

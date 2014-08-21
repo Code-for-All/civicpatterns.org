@@ -15,9 +15,11 @@ categories:
     	<div class="jumbotron dotted">
     		<div class="container">
     			<div class="row">
-
-		      		<article class="col-md-12 col-sm-12 patt-row" >
-		      			{{ content }}
+    				<div id="sidebar" class="sidebar col-md-3 col-sm-1">
+		      			{% include list.html %}
+		      		</div>
+		      		<article class="col-md-9 col-sm-1 patt-row" >
+		      			{% include patterns-body.html %}
 		      		</article>
 
 		       	

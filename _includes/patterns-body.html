@@ -1,21 +1,25 @@
----
-layout: default
----
 
-<div class="jumbotron dotted">
-    <div class="container">
-        <article class="row patt-row">
              
             <div class="col-md-9 patt-body">
-               <h2>{{page.title}}</h2>
-                <blockquote class="tagline">{{page.tagline}}</blockquote>
-                <div class="row">
+               
+               <h2><span>Pattern:&nbsp;</span>{{page.title}}</h2>
+                 <div class="meta">
+                   
+                    <span class="cat-meta">
+                        Category: 
+                    </span>    
                     {% for category in page.category %}
                       {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
                       {% capture indexurl %}{{ url }}/index.html{% endcapture %}
                         <a href="{{ url }}" class="cat-meta">{{ page.category }}</a> 
                        {% endfor %} 
-                </div>    
+                    <a class='custom-btn twitter btn btn-xs' href="https://twitter.com/intent/tweet?text={{ 'Civic Pattern: '| cgi_escape }}{{ page.title | cgi_escape }},&url={{'http://civicpatterns.org' | cgi_escape}}"><i class="fa fa-twitter fa-2x"></i>Tweet</a>
+
+                </div>  
+                
+
+                <blockquote class="tagline">{{page.tagline}}</blockquote>
+                 
 
                 
                 {% if page.stub == null %}
@@ -41,10 +45,10 @@ layout: default
                     </ul>
                 {% endif %}
             </aside>
-        </article>
-        <footer>
+        
+        <footer class="row">
             {% if page.stub %}
-            <div class="row stub">
+                <div class="col-md-12 stub">
                     <strong>This pattern is a stub.</strong> Help to grow CivicPatterns.org by
                     adding a description.
                     <a class="brand-tag" href="https://github.com/civic-commons/civicpatterns.org/edit/gh-pages/{{page.path}}#">Edit now.
@@ -53,19 +57,6 @@ layout: default
             {% endif %}
         </footer>
 
-    </div>    
-</div>
-
-    <div class="container-fluid">
-
-        <div class="brand-tag">  
-            <h2 class="container">More {{page.category}} Patterns</h2>
-        </div>
-             <div class='container'>
-                {% include gallery-in-pattern.html %}
-            </div>
-        
-    </div>
 
 
 
