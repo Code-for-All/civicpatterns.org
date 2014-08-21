@@ -7,93 +7,31 @@ categories:
 - Tools
 ---
 
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>CivicPatterns &raquo; {{ page.title }}</title>
-    <link type="image/x-icon" rel="shortcut icon" href="/static/images/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
-  </head>
-  <body>
+{% include header.html %}
 
-    <section class="container">
-      <a href="https://github.com/civic-commons/civicpatterns.org"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
-      <header class="header">
-        <h1><a class="" href="/"><span class="entypo">&oacute;</span><span class="title ir">CivicPatterns</span></a></h1>
-      </header>
 
-      <section class="content">
+      <article class="main-content">
+    	<div class="jumbotron dotted">
+    		<div class="container">
+    			<div class="row">
 
-        <article class="content-block">{{ content }}</article>
+		      		<article class="col-md-12 col-sm-12 patt-row" >
+		      			{{ content }}
+		      		</article>
 
-        <footer class="footer content-block">
-          <p>Don't see a pattern you want? Add it yourself by reading the <a href="/contributing">Contributor's Guide</a>.</p><p> The layout of this page is based on the
-          <a href="http://coffeescriptcookbook.com/">CoffeeScript Cookbook</a>.</p>
-          <a href="/license"><img src="/static/images/cc_by_badge.png" /></a>
-        </footer>
+		       	
+		       </div>
 
-      </section>
+		    </div>
+		</div>    
 
-    </section>
+      </article>
 
-    <aside id="sidebar">
+    
 
-      <section class="sidebar-block block-short">
-        <nav class="navigation pages-nav home-nav">
-          <h6><a class="nav-link" href="/"><span class="entypo">&oacute;</span>CivicPatterns</a></h6>
-          <small class="thin dimmed">(last updated {{ site.time | date: "%d %B, %Y" }})</small>
-        </nav>
-      </section>
 
-      <section class="sidebar-block">
-        <nav class="navigation pages-nav">
-          <ul class="plain-list inline-list">
-            <li><a class="nav-link" href="/contributing"><span class="entypo">6</span>Contribute</a></li>
-            <li><a class="nav-link" href="/authors"><span class="entypo">,</span>Authors</a></li>
-            <li><a class="nav-link" href="/license"><span class="entypo">&copy;</span>License</a></li>
-          </ul>
-        </nav>
-      </section>
 
-      <section class="sidebar-block">
-        <h5 class="sidebar-title">Categories</h5>
-        <ol class="navigation chapters-list">
-          {% for category in page.categories %}
-            {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
-            {% capture indexurl %}{{ url }}/index.html{% endcapture %}
-            <li class="chapter">
-              <div class="sidebar-subtitle{% if page.url == indexurl %} page-active{% endif %}"><strong><a class="chapter-title" href="{{ url }}">{{ category }}</a></strong></div>
-              <ul class="pseudo-list recipes-list">
-                {% for site_page in site.pages %}
-                  {% if site_page.category == category %}
-                    {% unless site_page.url == indexurl %}
-                      <li class="list-item recipe{% if page.url == site_page.url %} page-active{% endif %}"><a class="recipe-title" href="{{ site_page.url | replace: '.html', '' }}">{{ site_page.title }}</a></li>
-                    {% endunless %}
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ol>
-      </section>
 
-    </aside>
-
-    <script type="text/javascript" src="/static/js/scripts.js"></script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-34039573-10', 'civicpatterns.org');
-      ga('send', 'pageview');
-
-    </script>
- </body>
-</html>
-
+    
+{% include footer.html %}

@@ -1,0 +1,63 @@
+
+             
+            <div class="col-md-9 patt-body">
+               
+               <h2><span>Pattern:&nbsp;</span>{{page.title}}</h2>
+                 <div class="meta">
+                   
+                    <span class="cat-meta">
+                        Category: 
+                    </span>    
+                    {% for category in page.category %}
+                      {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
+                      {% capture indexurl %}{{ url }}/index.html{% endcapture %}
+                        <a href="{{ url }}" class="cat-meta">{{ page.category }}</a> 
+                       {% endfor %} 
+                    <a class='custom-btn twitter btn btn-xs' href="https://twitter.com/intent/tweet?text={{ 'Civic Pattern: '| cgi_escape }}{{ page.title | cgi_escape }},&url={{'http://civicpatterns.org' | cgi_escape}}"><i class="fa fa-twitter fa-2x"></i>Tweet</a>
+
+                </div>  
+                
+
+                <blockquote class="tagline">{{page.tagline}}</blockquote>
+                 
+
+                
+                {% if page.stub == null %}
+                    
+                {{content}}
+                
+                {% endif %}
+ 
+               
+            </div>
+             <aside class="col-md-3">
+                {% if page.related | size > 0 %}
+                    <h3>Related Patterns</h3>
+                    <ul>
+                        {% for related in page.related %}
+                            {% for p in site.pages %}{% if p.title == related %}
+                                <li>
+                                    <a class="rel-patt" href="{{p.url}}"><strong>{{p.title}}</strong></a> 
+                                    {{p.tagline}}
+                                </li>
+                            {% endif %}{% endfor %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </aside>
+        
+        <footer class="row">
+            {% if page.stub %}
+                <div class="col-md-12 stub">
+                    <strong>This pattern is a stub.</strong> Help to grow CivicPatterns.org by
+                    adding a description.
+                    <a class="brand-tag" href="https://github.com/civic-commons/civicpatterns.org/edit/gh-pages/{{page.path}}#">Edit now.
+                    </a>
+                </div>
+            {% endif %}
+        </footer>
+
+
+
+
+

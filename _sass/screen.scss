@@ -1,0 +1,46 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+
+
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('../static/fonts/ostrich-regular-webfont.eot');
+    src: url('../static/fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../static/fonts/ostrich-regular-webfont.woff') format('woff'),
+         url('../static/fonts/ostrich-regular-webfont.ttf') format('truetype'),
+         url('../static/fonts/ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ostrich_sanscondensed_light';
+    src: url('../static/fonts/ostrich-light-webfont.eot');
+    src: url('../static/fonts/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../static/fonts/ostrich-light-webfont.woff') format('woff'),
+         url('../static/fonts/ostrich-light-webfont.ttf') format('truetype'),
+         url('../static/fonts/ostrich-light-webfont.svg#ostrich_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ostrich_sansblack';
+    src: url('../static/fontsostrich-black-webfont.eot');
+    src: url('../static/fontsostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../static/fontsostrich-black-webfont.woff') format('woff'),
+         url('../static/fontsostrich-black-webfont.ttf') format('truetype'),
+         url('../static/fontsostrich-black-webfont.svg#ostrich_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

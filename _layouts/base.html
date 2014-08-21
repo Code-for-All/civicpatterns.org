@@ -1,0 +1,96 @@
+---
+categories:
+- Community
+- Delivery
+- Government
+- Engagement
+- Tools
+---
+
+{% include header.html %}
+
+
+{% if page.homepage %}
+<section class="dot home">
+
+	<div class='jumbotron dotted city'>
+		<div class='container'>
+			<div class="col-md-8 col-md-offset-2">
+				
+				<ul class="bxslider">
+					
+					 {% for p in site.pages %}
+				        {% if p.featured %}
+				         
+			  			<li>
+			  				<h2> {{ p.title }} </h2>
+			  				<p> {{ p.tagline }} </p>
+			  			</li>
+
+			  			{% endif %}
+				  	{% endfor %}
+
+				</ul>
+			</div>
+		
+		</div>
+	</div>
+	<div class="jumbotron blue">
+
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<h3> {{ site.sitetagline }}</h3>
+				<!-- <h3>{{ page.tagline }}</h3> -->
+				{{content}}
+			</div>
+		</div>
+	</div>
+		
+</section>
+
+
+{% endif %}
+    
+<article class="main-content home">
+	<div class="container">
+	<h1 class="sign"> Pattern Catalog </h1>
+</div>
+    	<div class="jumbotron dotted">
+    		<div class="container">
+    			<div class="row">
+    				{% for category in page.categories %}
+		            {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
+		            {% capture indexurl %}{{ url }}/index.html{% endcapture %}
+		            
+		            <div class=" col-md-3 chapter">
+		            	<h2 class="sidebar-subtitle"><strong><a class="chapter-title" href="{{ url }}">{{ category }}</a></strong></h2>
+		            	<div class="list">
+				              <ul class="pseudo-list recipes-list">
+				                {% for site_page in site.pages %}
+				                  {% if site_page.category == category %}
+				                    {% unless site_page.url == indexurl %}
+				                      <li class="list-item recipe{% if page.url == site_page.url %} page-active{% endif %}"><a class="recipe-title" href="{{ site_page.url | replace: '.html', '' }}">{{ site_page.title }}</a></li>
+				                    {% endunless %}
+				                  {% endif %}
+				                {% endfor %}
+
+				              </ul>
+			        	</div>
+			        </div> 
+			
+
+		          	{% endfor %}	
+
+		       	
+		       </div>
+
+		    </div>
+		</div>    
+
+</article>
+
+    
+{% include footer.html %}
+
+  
+

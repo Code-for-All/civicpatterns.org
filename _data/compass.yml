@@ -1,0 +1,9 @@
+---
+require:
+- jekyll-compass
+project_path: "/Users/Montse/Documents/workspace/civicpatt"
+http_path: "/"
+css_dir: css
+sass_dir: _sass
+images_dir: images
+javascripts_dir: javascripts

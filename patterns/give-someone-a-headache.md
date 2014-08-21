@@ -1,5 +1,5 @@
 ---
-layout: pattern
+layout: catalog
 title: Give Someone A Headache
 tagline: Cause trouble to someone in a position of power to force them to reform their process.
 category: Engagement
