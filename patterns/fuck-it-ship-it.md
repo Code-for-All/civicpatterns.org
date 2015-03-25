@@ -17,7 +17,7 @@ doesn't need to be complete.
 
 In all likelihood at least some of your assumptions about your product are
 wrong. The best way to find out which ones is to test them on real users.
-It's far cheaper to make discover them sooner, when you can correct them
+It's far cheaper to discover them sooner, when you can correct them
 cheaply, than to discover them later after wasting a lot of time and
 money.
 
