@@ -17,5 +17,3 @@ stub: true
 featured: true
 ---
 
-
-
