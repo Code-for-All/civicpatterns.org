@@ -21,6 +21,8 @@ examples:
 
 ---
 
+## Harness people's creativity (from Code for America)
+
 Engage people in creative, curious or inane thought. Be unlike the "typical" experience or style of engagement with a topic or problem.
 
 ## Common pitfalls
