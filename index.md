@@ -1,7 +1,9 @@
 ---
 title: Civic Technology Design Patterns
 layout: base
-tagline: A design pattern language for technology that addresses social political and governance-related problems.
+tagline: >
+    A design pattern language for technology that addresses social
+    political and governance-related problems.
 homepage: yes
 ---
 

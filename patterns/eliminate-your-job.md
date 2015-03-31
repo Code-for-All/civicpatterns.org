@@ -11,4 +11,8 @@ related:
 tags:
     - purpose
 stub: true
+examples:
+    - label: MMA Dexter
+      url: https://github.com/Code4SA/mma-dexter
+      note: "Media monitoring application, used internally by an NGO" 
 ---
