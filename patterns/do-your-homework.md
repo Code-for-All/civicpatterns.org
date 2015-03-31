@@ -25,3 +25,7 @@ examples:
 ---
 
 Research common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better than the competition and has a chance of having a higher Google ranking. Google even has a [keyword research tool](https://adwords.google.com/KeywordPlanner).
+
+## [Antipattern: No competition scan](https://github.com/codeforamerica/civic-tech-patterns#no-competition-scan)
+
+Make sure you know what's already been done. Where do you fit? Where can you add value? Are the existing sites good enough? There are plenty of untapped opportunities -- it might be better to start there. 
