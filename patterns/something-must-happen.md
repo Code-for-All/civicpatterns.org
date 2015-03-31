@@ -12,4 +12,12 @@ related:
 tags:
     - incentives
 antipattern: false 
+credits:
+    label: The Dead End (Code for America)
+    url: https://github.com/codeforamerica/civic-tech-patterns#the-dead-end
+
 ---
+
+If it doesn’t have an action step, so what? In some cases, it's fine if a page is a dead-end. But you probably brought the user to the page for a reason.
+
+
