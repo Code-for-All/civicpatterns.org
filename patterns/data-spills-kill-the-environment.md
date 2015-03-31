@@ -14,4 +14,12 @@ related:
 tags:
     - purpose
     - tech
+credits:
+    label: “It’s interesting” / Pseudo Investigative Journalism (Code for America)
+    url: https://github.com/codeforamerica/civic-tech-patterns#for-official-adoption
+
 ---
+
+## Common pitfalls: Pseudo investigative journalism
+
+Publish with purpose. Don't simply move a public dataset online because it exists. Don't be that newspaper that [published the home addresses of gun owners](http://www.nytimes.com/2013/01/07/nyregion/after-pinpointing-gun-owners-journal-news-is-a-target.html?pagewanted=all) "just because." 
