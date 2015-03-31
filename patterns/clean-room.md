@@ -1,7 +1,17 @@
 ---
 layout: catalog
 title: Clean Room
-tagline: "If your project operates within any bureaucratic system, ensure that the person responsible for its design knows as little as possible about how the existing system works."
+tagline: >
+    If your project operates within any bureaucratic system, ensure that the person
+    responsible for its design knows as little as possible about how the existing
+    system works.
+related:
+    - Faster Horses
+    - Boldly Go Where No Government Has Gone
+opposites:
+    - Don't Pretend You're The Government
+tags:
+    - imagination
 category: Government
 ---
 

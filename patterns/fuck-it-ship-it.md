@@ -1,12 +1,17 @@
 ---
 layout: catalog
 title: Fuck It Ship It
-tagline: Publish your prototype as soon as possible, instead of trying to build a full product.
+tagline: >
+    Publish your prototype as soon as possible, instead of trying to
+    build a full product.
 category: Delivery
+tags:
+    - workflow
+    - tech
 related:
-  - Don't Boil The Ocean
-  - Launch Without A Home Page
-  - Launching Is Just The Start
+    - Don't Boil The Ocean
+    - Launch Without A Home Page
+    - Launching Is Just The Start
 featured: true
 ---
 

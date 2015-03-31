@@ -1,12 +1,16 @@
 ---
 layout: catalog
 title: Launching Is Just The Start
-tagline: When you finally launch, you've only just started. Launching your project is not a destination and it's not finished, you've only just begun.
+tagline: > 
+    When you finally launch, you've only just started. Launching your project is not a destination and it's not finished, you've only just begun.
 category: Delivery
 related:
   - Launch Without A Home Page
   - Don't Boil The Ocean
   - Fuck It Ship It
+tags:
+    - workflow
+antipattern: false 
 ---
 
 When you first launch your product, it sometimes feels like all the work is done and you can

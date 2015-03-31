@@ -1,8 +1,17 @@
 ---
 layout: catalog
 title: Push Don't Pull
-tagline: Don't make offerings for people to visit regularly, instead push the news they need to their inbox.
+tagline: >
+    Don't make offerings for people to visit regularly, instead push the news they need to their inbox.
 category: Engagement
+related:
+    - Build It They Wont Come
+    - No Score Card
+    - Launch Without A Home Page
+    - No Social Networks
+tags:
+    - incentives
+antipattern: false 
 ---
 
 Send your users information directly, without them having to come to your site to get it.

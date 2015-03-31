@@ -1,7 +1,14 @@
 ---
 layout: catalog
 title: Harness Self Interest
-tagline: Don't expect people to contribute out of altruism, but make sure they have a real reason to do so.
+tagline: >
+    Don't expect people to contribute out of altruism, but
+    make sure they have a real reason to do so.
+tags:
+    - incentives
+related:
+    - Remove A Headache
+    - Scratch Your Own Itch
 category: Engagement
 stub: true
 ---

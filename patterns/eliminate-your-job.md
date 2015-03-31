@@ -1,9 +1,14 @@
 ---
 layout: catalog
 title: Eliminate Your Job
-tagline: Automation might replace people in your organization. Don't work around that, have them do something better instead.
+tagline: >
+    Automation might replace people in your organization. Don't
+    work around that, have them do something better instead.
 category: Delivery
 related:
     - Faster Horses
+    - Scratch Your Own Itch
+tags:
+    - purpose
 stub: true
 ---
