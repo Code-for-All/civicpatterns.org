@@ -12,4 +12,17 @@ related:
 tags:
     - imagination 
 antipattern: false 
+credits:
+    label: Reimagine (Code for America)
+    url: https://github.com/codeforamerica/civic-tech-patterns#reimagine
+examples:
+    - label:
+      url:
+
 ---
+
+Engage people in creative, curious or inane thought. Be unlike the "typical" experience or style of engagement with a topic or problem.
+
+## Common pitfalls
+
+One potential danger to this pattern is the lack of a clear action step.

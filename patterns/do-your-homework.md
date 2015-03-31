@@ -15,4 +15,13 @@ tags:
     - imagination
     - workflow
 stub: true
+credits:
+    label: Do your research (Code for America)
+    url: https://github.com/codeforamerica/civic-tech-patterns#do-your-research
+examples:
+    - label:
+      url:
+
 ---
+
+Research common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better than the competition and has a chance of having a higher Google ranking. Google even has a [keyword research tool](https://adwords.google.com/KeywordPlanner).

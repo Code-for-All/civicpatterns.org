@@ -12,6 +12,9 @@ related:
 tags:
     - incentives
 antipattern: false 
+credits:
+    label:  It Alerts You (Code for America)
+    url: https://github.com/codeforamerica/civic-tech-patterns#it-alerts-you
 ---
 
 Send your users information directly, without them having to come to your site to get it.

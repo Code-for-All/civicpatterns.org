@@ -13,6 +13,12 @@ opposites:
 tags:
     - imagination
 category: Government
+credits:
+    label: Reimagine (Code for America)
+    url: https://github.com/codeforamerica/civic-tech-patterns#reimagine
+examples:
+    - label:
+      url:
 ---
 
 Most people hate dealing with bureaucracies. You have to jump through lots of seemingly pointless hoops, just for the sake of the system. But the more you're exposed to it, the more sense it starts to make, and the harder it is to see things through a beginner's eyes. Therefore, when building a system that helps someone bypass bureaucracy, start by designing how the system *should* be, with as little pre-knowledge as possible, and then, when you need to add any complexity, work as hard as you can to hide that from the user.
