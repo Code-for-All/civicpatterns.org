@@ -1,11 +1,16 @@
 ---
 layout: catalog
 title: Launch Without A Home Page
-tagline: Build the meat of your site first, and add the front page last.
+tagline: > 
+    Build the meat of your site first, and add the front page last.
 category: Delivery
 related:
   - Fuck It Ship It
   - Launching Is Just The Start
+tags:
+    - workflow
+    - tech
+antipattern: false 
 ---
 
 Your homepage probably isn't the core reason that people will visit your site.

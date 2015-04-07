@@ -13,7 +13,5 @@ CivicPatterns was started in May 2014 by a working group at CodeCamp Bellagio, a
 * Greg Kempe, Code for South Africa
 * Justin Arenstein, ICFJ/Knight; Code for Africa
 * Friedrich Lindenberg, ICFJ/Knight; Code for Africa
-
-Further contributions were made by: 
-
 * Zara Rahman, OKFN/Development Initiatives
+* Lucy Chambers, Tech to Human
