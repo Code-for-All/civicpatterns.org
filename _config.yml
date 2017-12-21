@@ -1,12 +1,9 @@
 safe: true
 markdown: kramdown
 permalink: pretty
-
-
-#collections:
-#    patterns:
-#        output: true
 sitetagline: 'CivicPatterns.org is a collection of patterns and tools that help Civic Technology projects succeed.' 
-
-
-
+cats:
+- Community
+- Delivery
+- Government
+- Engagement
