@@ -13,7 +13,7 @@ tags:
     - tech
 antipattern: false 
 credits:
-    label: "Imagine a million users..." (Code for America)
+    label: "Imagine a million users... (Code for America)"
     url: https://github.com/codeforamerica/civic-tech-patterns#imagine-a-million-users
 
 ---

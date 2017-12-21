@@ -1,7 +1,7 @@
   <h4 class="sidebar-title">Categories</h4>
       <section class="sidebar-block">
         <ol class="navigation chapters-list">
-          {% for category in page.categories %}
+          {% for category in site.cats %}
             {% capture url %}/categories/{{ category | replace: ' ', '_' | downcase }}{% endcapture %}
             {% capture indexurl %}{{ url }}/index.html{% endcapture %}
             <li class="chapter">
